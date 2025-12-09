@@ -13,5 +13,7 @@ public class Product {
         Category = category;
     }
 
-
+    public String getCategoryName() {
+        return Category.getName();
+    }
 }
