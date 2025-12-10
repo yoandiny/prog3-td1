@@ -50,7 +50,7 @@ public class DataRetriever {
             while (rs.next()) {
                 Product product = new Product(
                         rs.getInt("id"),
-                        rs.getString("name"),
+                        rs.getString("name")
 
 
                 );
